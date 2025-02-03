@@ -12,7 +12,7 @@ bot.onText(/\/start/, (msg) => {
             inline_keyboard: [
                 [{
                     text: "Играть",
-                    web_app: { url: "https://ourgame-mu.vercel.app/" }
+                    web_app: { url: "https://ourgame-ri2b715rq-lisas-projects-db2c7f86.vercel.app/" }
                 }]
             ]
         }
