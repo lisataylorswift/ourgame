@@ -8,14 +8,14 @@ bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
 
     bot.sendMessage(chatId, "Привет! Чтобы поиграть в игру, нажмите на кнопку Играть.", {
-        reply_markup: {
-            inline_keyboard: [
-                [{
-                    text: "Играть",
-                    web_app: { url: "https://ourgame-mu.vercel.app/" }
-                }]
-            ]
-        }
+        // reply_markup: {
+        //     inline_keyboard: [
+        //         [{
+        //             text: "Играть",
+        //             web_app: { url: "https://ourgame-mu.vercel.app/" }
+        //         }]
+        //     ]
+        // }
     });
 });
 
